@@ -25,3 +25,13 @@ def output_array(array)
   end
 end
 
+def return_string_array(array)
+  i = 0 
+  return_array = []
+  while i < array.length do
+    return_array[i] = array[i].to_s 
+    i += 1 
+  end
+  return return_array 
+end
+
